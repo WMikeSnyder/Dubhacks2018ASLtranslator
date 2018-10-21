@@ -1,0 +1,62 @@
+/*
+WSU audio to ASL Project for dubhacks. Need SDK for microsoft speech w/ subscription.
+*/
+KeyPress = "null";
+
+bool init = false;
+
+/*  Define here or later?
+SpSDKKey
+OutAudioPack
+KeyPress
+*/
+
+/* Initialize all the things. Preferably set-up handshake with microsoft speech and
+ check ability to connect. Need to include config file for ptt key, and any other possible
+ UI customization. Maybe eventually provide localization options.*/
+void Init () {
+int AslImgNum = 0
+
+//define delay speed as set by the user and adjusted for pacing.
+
+init = true;
+}
+// define GUI parameters. Initially draw UI and prepare for input/output.
+void GenUI () {
+
+}
+
+//Wait for ptt keypress, then gather input audio. Look into possibly
+//filtering audio from 2 sources to eliminate noise.
+void SpeechListenLoop () {
+while (KeyPress != PTTBind){
+
+}
+
+//Capture audio for send. Need audio capture api.
+  while (KeyPress == PTTBind){
+      
+  }
+}
+
+//Send raw audio, wait for response.
+void SendGet () {
+    
+}
+
+//Deconstruct incoming for integer set
+void Deconstruct (){
+
+}
+
+//Display Raw Text
+void PrintRaw Text (){
+
+}
+
+//Sequentially Display ASL library Images based on deconstructed text. User configurable
+// delays between images, adjusted by text pacing. Text pacing depends on real time processing.
+
+void ImageDisplaySequence (int NextDelay, int StrtDelay, int StopDelay) {
+
+}
